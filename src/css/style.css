@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFE2B0;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav__list {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 0;
+    margin: 0px 0px 20px;
+ 
+}
+.nav__list-item {
+    margin: 0px 100px 0px 0px;
+    list-style-type: none;
+
+}
+.nav__list-item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #222;
+
+}
+.nav__list-item:last-child {
+    margin-right: 0px;
+}
+
+/* IMG BLOCK */
+.about__section  {
+    height: 640px;
+    background: url(../img/back-image.jpg) center/cover no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.about__section-block-information {
+    width: 420px;
+    height: 190px;
+    position: absolute;
+    top: 54.5%;
+    left: 50.6%;
+    background: linear-gradient(180deg, rgba(244,213, 178, 0.8) 0%,
+     rgba(234,156,65,0.8) 100%);
+     padding-top: 15px;
+  
+   
+}
+.head__information-block {
+    height: 160px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 17px 0px 0px 28px;
+    text-align: left;
+ 
+}
+.about__section-title{
+    font-size: 36px;
+    margin: 0px 0px 9px 0px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+}
+.about__section-subTitle {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* section 2 */
+.section__desc {
+   text-align: center;
+   margin-bottom: 20px;
+  
+}
+.section__desc-icons {
+    margin-bottom: 20px;
+}
+.section__desc-icons img {
+    margin:0px 76px 0px 0;
+
+}
+.section__desc-icons img:last-child {
+    margin-right: 0px;
+
+}
+.section__desc-desc-header {
+   margin-bottom: 20px;
+}
+.section__desc-desc-header h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    margin: 0;
+}
+.section__desc-desc-header p {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 400;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+.desc__header-color {
+    color: #F15B40;
+}
+/* test*/
+
+.btn {
+    margin:60px 0px 20px 40px;
+    width: 200px;
+    height: 100px;
+    background-color:darksalmon;
+    cursor: pointer;
+}
+.btn b{
+ font-size: 24px;
+}
+.btn:active {
+ background-color: cornsilk;
+}
+.z {
+    font-size: 24px;
+    color: antiquewhite;
+}
+/* section 3 */
+.section__order-buy {
+    
+}
+.section__order__head {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+
+.section__order-map {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.line__footer {
+    border-top: 1px solid #999;
+    width: 1024px;
+    margin: 0 auto 20px;
+}
+footer nav {
+    height: 80px;
+}
